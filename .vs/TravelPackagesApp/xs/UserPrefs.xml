@@ -1,3 +1,4 @@
-﻿<Properties StartupConfiguration="{4177BEDD-ED1B-452D-A62C-0DFFFE5975B0}|https">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4177BEDD-ED1B-452D-A62C-0DFFFE5975B0}|https">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TravelPackagesApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

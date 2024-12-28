@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using TravelPackagesApp.Models;
 
-namespace TravelPackagesApp.Controllers;
 public class TravelPackageController : Controller
 {
     private static List<TravelPackage> _packages = new();
@@ -11,20 +10,19 @@ public class TravelPackageController : Controller
         return View(_packages);
     }
 
-    public IActionResult Create()
-    {
-        return View();
-    }
-
     [HttpPost]
-    public IActionResult Create(TravelPackage package)
+    public IActionResult Create([FromBody] TravelPackage package)
     {
         if (ModelState.IsValid)
         {
             package.Id = _packages.Count + 1;
             _packages.Add(package);
-            return RedirectToAction("Index");
+
+            // Return 200 OK for AJAX requests
+            return Json(new { success = true });
         }
-        return View(package);
+
+        // Return 400 Bad Request for invalid data
+        return BadRequest(new { error = "Invalid data" });
     }
 }

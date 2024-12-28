@@ -1,7 +1,8 @@
 @model List<TravelPackagesApp.Models.TravelPackage>
 
 <h1>Travel Packages</h1>
-<table>
+
+<table id="packagesTable" border="1">
     <thead>
         <tr>
             <th>Name</th>
@@ -20,4 +21,53 @@
         }
     </tbody>
 </table>
-<a href="/TravelPackage/Create">Add Package</a>
+
+<h2>Add New Travel Package</h2>
+<form id="addPackageForm">
+    <label>Name:</label>
+    <input id="name" type="text" name="Name" required />
+    <br />
+    <label>Amount:</label>
+    <input id="amount" type="number" name="Amount" required />
+    <br />
+    <label>Is Active:</label>
+    <input id="isActive" type="checkbox" name="IsActive" />
+    <br />
+    <button type="submit">Add Package</button>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>$(document).ready(function () {
+        $("#addPackageForm").on("submit", function (e) {
+            e.preventDefault();
+
+            const data = {
+                Name: $("#name").val(),
+                Amount: parseFloat($("#amount").val()),
+                IsActive: $("#isActive").is(":checked")
+            };
+
+            $.ajax({
+                url: "/TravelPackage/Create",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: function () {
+                    // Append the new row to the table
+                    $("#packagesTable tbody").append(
+                        `<tr>
+                            <td>${data.Name}</td>
+                            <td>${data.Amount}</td>
+                            <td>${data.IsActive}</td>
+                        </tr>`
+                    );
+
+                    // Clear the form
+                    $("#addPackageForm")[0].reset();
+                },
+                error: function () {
+                    alert("Failed to add the travel package. Please try again.");
+                }
+            });
+        });
+    });</script>
