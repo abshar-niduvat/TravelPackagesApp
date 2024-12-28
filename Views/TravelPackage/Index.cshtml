@@ -1,0 +1,23 @@
+@model List<TravelPackagesApp.Models.TravelPackage>
+
+<h1>Travel Packages</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Is Active</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var package in Model)
+        {
+            <tr>
+                <td>@package.Name</td>
+                <td>@package.Amount</td>
+                <td>@package.IsActive</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/TravelPackage/Create">Add Package</a>

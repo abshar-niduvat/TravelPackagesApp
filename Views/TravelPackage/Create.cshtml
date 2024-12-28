@@ -1,0 +1,17 @@
+@model TravelPackagesApp.Models.TravelPackage
+
+<h1>Create Package</h1>
+<form method="post">
+    <label>Name:</label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+    <br />
+    <label>Amount:</label>
+    <input asp-for="Amount" />
+    <span asp-validation-for="Amount"></span>
+    <br />
+    <label>Is Active:</label>
+    <input asp-for="IsActive" type="checkbox" />
+    <br />
+    <button type="submit">Add Package</button>
+</form>
