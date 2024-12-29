@@ -1,5 +1,3 @@
-/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.GeneratedMSBuildEditorConfig.editorconfig
-/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.AssemblyInfoInputs.cache
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/appsettings.Development.json
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/appsettings.json
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/TravelPackagesApp.staticwebassets.runtime.json
@@ -8,8 +6,16 @@
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/TravelPackagesApp.runtimeconfig.json
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/TravelPackagesApp.dll
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/TravelPackagesApp.pdb
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.csproj.AssemblyReference.cache
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.AssemblyInfoInputs.cache
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.AssemblyInfo.cs
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.csproj.CoreCompileInputs.cache
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.MvcApplicationPartsAssemblyInfo.cs
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.MvcApplicationPartsAssemblyInfo.cache
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.RazorAssemblyInfo.cache
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.RazorAssemblyInfo.cs
@@ -24,6 +30,7 @@
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/scopedcss/bundle/TravelPackagesApp.styles.css
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/scopedcss/projectbundle/TravelPackagesApp.bundle.scp.css
+/Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPa.ECAFE017.Up2Date
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.dll
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/refint/TravelPackagesApp.dll
 /Users/absharpalangat/Desktop/travelUp/TravelPackagesApp/obj/Debug/net8.0/TravelPackagesApp.pdb
