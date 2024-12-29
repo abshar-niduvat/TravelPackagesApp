@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A262CB5B-020F-411D-B465-B844B8A9294A}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravelPackageControllerTests.cs">
+    <Files>
+      <File FileName="TravelPackageControllerTests.cs" Line="26" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TravelPackagesApp.Tests" expanded="True">
+            <Node name="TravelPackagesApp.Tests" expanded="True">
+              <Node name="TravelPackageControllerTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TravelPackagesApp.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
